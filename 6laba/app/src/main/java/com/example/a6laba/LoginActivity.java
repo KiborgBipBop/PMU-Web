@@ -19,7 +19,6 @@ import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -35,7 +34,6 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 import java.io.File;
-import java.util.Arrays;
 
 public class LoginActivity extends AppCompatActivity
 {
@@ -219,7 +217,7 @@ public class LoginActivity extends AppCompatActivity
 
     private void updateUI(FirebaseUser user)
     {
-        Intent intent = new Intent(com.example.a6laba.LoginActivity.this, PostsActivity.class);
+        Intent intent = new Intent(com.example.a6laba.LoginActivity.this, PostExtraction.class);
         startActivity(intent);
     }
 
@@ -234,7 +232,7 @@ public class LoginActivity extends AppCompatActivity
         {
             mLoadingBar.dismiss();
 
-            Intent intent = new Intent(com.example.a6laba.LoginActivity.this, PostsActivity.class);
+            Intent intent = new Intent(com.example.a6laba.LoginActivity.this, PostExtraction.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         } else
@@ -262,7 +260,7 @@ public class LoginActivity extends AppCompatActivity
 
                             mLoadingBar.dismiss();
 
-                            Intent intent = new Intent(com.example.a6laba.LoginActivity.this, PostsActivity.class);
+                            Intent intent = new Intent(com.example.a6laba.LoginActivity.this, PostExtraction.class);
                             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                             startActivity(intent);
 

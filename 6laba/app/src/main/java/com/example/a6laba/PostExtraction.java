@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class PostsActivity extends AppCompatActivity
+public class PostExtraction extends AppCompatActivity
 {
     PostsAdapter postsAdapter;
     RecyclerView rcvAudio;
@@ -49,7 +49,7 @@ public class PostsActivity extends AppCompatActivity
             public void onClickListener(com.example.a6laba.Post post, int position)
             {
                 Toast.makeText(getApplicationContext(), post.title, Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(com.example.a6laba.PostsActivity.this, DetailPostActivity.class);
+                Intent intent = new Intent(PostExtraction.this, DetailPostActivity.class);
                 intent.putExtra("position", position);
                 startActivity(intent);
             }
