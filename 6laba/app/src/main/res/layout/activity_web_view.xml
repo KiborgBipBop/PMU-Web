@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".WebViewActivity"
-    android:background="@color/purple_200">
+    tools:context=".WebViewActivity">
 
     <Button
         android:id="@+id/detail_back_button"
