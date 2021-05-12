@@ -139,7 +139,7 @@ public class RegistrationActivity extends AppCompatActivity
 
                         mLoadingBar.dismiss();
 
-                        Intent intent = new Intent(com.example.a6laba.RegistrationActivity.this, com.example.a6laba.PostsActivity.class);
+                        Intent intent = new Intent(com.example.a6laba.RegistrationActivity.this, PostExtraction.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
 

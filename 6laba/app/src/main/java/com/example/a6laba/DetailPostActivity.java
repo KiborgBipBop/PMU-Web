@@ -62,7 +62,7 @@ public class DetailPostActivity extends AppCompatActivity
                     try
                     {
                         Utility.deletePostInList(getApplicationContext(), position);
-                        Intent intent = new Intent(com.example.a6laba.DetailPostActivity.this, com.example.a6laba.PostsActivity.class);
+                        Intent intent = new Intent(com.example.a6laba.DetailPostActivity.this, PostExtraction.class);
                         startActivity(intent);
                     } catch (Exception e)
                     {

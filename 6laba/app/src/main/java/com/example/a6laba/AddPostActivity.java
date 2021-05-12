@@ -102,7 +102,7 @@ public class AddPostActivity extends AppCompatActivity
                     {
                         e.printStackTrace();
                     }
-                    Intent intent = new Intent(com.example.a6laba.AddPostActivity.this, com.example.a6laba.PostsActivity.class);
+                    Intent intent = new Intent(com.example.a6laba.AddPostActivity.this, PostExtraction.class);
                     startActivity(intent);
 
                 }
