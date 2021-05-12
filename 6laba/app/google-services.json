@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564828891382",
+    "project_id": "a6laba",
+    "storage_bucket": "a6laba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564828891382:android:4b764e8c848ae4c68064d7",
+        "android_client_info": {
+          "package_name": "com.example.a6laba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564828891382-2cnifhs1n4k4f9qf5ttt53iasddbvt3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAObMxb87rRXxJu1scgki9F2EP-V47eWoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564828891382-2cnifhs1n4k4f9qf5ttt53iasddbvt3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
