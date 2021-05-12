@@ -51,7 +51,6 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_toRightOf="@+id/person_photo"
-                android:textColor="@color/white"
                 android:textSize="40sp" />
 
             <LinearLayout
